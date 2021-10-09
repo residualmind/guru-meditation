@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body bgcolor="#888">
+    <h1>Guru Meditation</h1>
+    <p>Trying to re-create the AMIGA error message known as "Guru Meditation"</p>
+    <button id="btn">Click here to test</button>
+    <script type="module">
+      import Guru from "./gurumeditation.js"
+
+      document.getElementById('btn').addEventListener('click', () => {
+        Guru.meditate('Software Failure - Press left mouse button to continue \n Guru Meditation #0000000A.00001970');
+      });
+    </script>
+  </body>
+</html>
+
